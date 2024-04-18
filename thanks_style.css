@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'overpass';
+    src: url(Overpass-VariableFont_wght.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'overpass';
+}
+.container{
+    margin-top: 100px;
+    width: 350px;
+    height: 280px;
+    background-color:hsl(214, 20%, 16%);
+    padding:40px;
+    border-radius: 20px;
+}
+.container h4{
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 30px;
+    background-color:hsl(213, 19%, 18% );
+    color: rgb(213, 102, 32);
+}
+.container h1{
+    padding-top: 20px;
+    color: white;
+}
+.container p{
+    padding-top: 20px;
+    color: hsl(216, 12%, 54%);
+}
+@media screen and (max-width:400px){
+    .container{
+        width: 280px;
+    }
+}

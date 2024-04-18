@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'overpass';
+    src: url(Overpass-VariableFont_wght.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'overpass';
+}
+.container{
+   margin-top: 100px;
+   width: 350px;
+   height: 350px;
+   background-color: hsl(214, 20%, 16%);
+   padding: 20px;
+   border-radius: 20px;
+}
+.container img{
+    width: 20px;
+    padding: 15px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 100px;
+}
+.container h1{
+    padding-top: 20px;
+    color: white;
+}
+.container p{
+    padding-top: 20px;
+    color: hsl(216, 12%, 54%);
+}
+.rate-no button{
+    background-color:hsl(213, 19%, 18%);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: hsl(213, 19%, 18%);
+    margin-right: 16px;
+    font-size: 15px;
+    font-family: 'overpass';
+    font-weight: 700;
+}
+.rate-no{
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.rate-no button:hover{
+    background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+.submit-btn button{
+    background-color:rgb(213, 102, 32);
+    color: white;
+    width: 350px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: 'overpass';
+    font-weight: 700;
+    border-style: solid;
+    border-color: rgb(213, 102, 32);
+}
+.submit-btn{
+    padding-top: 20px;
+}
+.submit-btn button:hover{
+    border-color: white;
+    background-color: white;
+    color: rgb(213, 102, 32);
+    cursor: pointer;
+}
+@media screen and (max-width:400px){
+    .container{
+        width: 320px;
+    }
+    .rate-no button{
+        margin-right: 10px;
+    }
+    .submit-btn button{
+        width: 320px;
+    }
+}
